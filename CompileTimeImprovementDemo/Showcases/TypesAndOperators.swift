@@ -7,6 +7,10 @@
 //
 
 import Foundation
+import Alamofire
+import Swinject
+import RxSwift
+import ReactiveSwift
 
 struct TypeInferenceTest {
     
