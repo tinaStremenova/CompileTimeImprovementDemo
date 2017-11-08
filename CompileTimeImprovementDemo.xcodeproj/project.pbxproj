@@ -18,6 +18,7 @@
 		9D4003C91F949F060036094D /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4003C81F949F060036094D /* DataSource.swift */; };
 		9DC8A0601F9D154800390EEB /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8A05F1F9D154800390EEB /* ViewModel.swift */; };
 		9DC8A0621F9D3ABC00390EEB /* TypesAndOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8A0611F9D3ABC00390EEB /* TypesAndOperators.swift */; };
+		9DCEDBA81FB3084A001CA227 /* ObjcExceptionBridging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DCEDBA71FB3084A001CA227 /* ObjcExceptionBridging.framework */; };
 		9DEDA9B11F8CDA7100C9E002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEDA9B01F8CDA7100C9E002 /* AppDelegate.swift */; };
 		9DEDA9B31F8CDA7100C9E002 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEDA9B21F8CDA7100C9E002 /* ViewController.swift */; };
 		9DEDA9B61F8CDA7100C9E002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DEDA9B41F8CDA7100C9E002 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 		9D4003C81F949F060036094D /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		9DC8A05F1F9D154800390EEB /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		9DC8A0611F9D3ABC00390EEB /* TypesAndOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesAndOperators.swift; sourceTree = "<group>"; };
+		9DCEDBA71FB3084A001CA227 /* ObjcExceptionBridging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjcExceptionBridging.framework; path = Carthage/Build/iOS/ObjcExceptionBridging.framework; sourceTree = "<group>"; };
 		9DEDA9AD1F8CDA7100C9E002 /* CompileTimeImprovementDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompileTimeImprovementDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DEDA9B01F8CDA7100C9E002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DEDA9B21F8CDA7100C9E002 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DCEDBA81FB3084A001CA227 /* ObjcExceptionBridging.framework in Frameworks */,
 				9D17869B1FB23DD300765642 /* ReactiveSwift.framework in Frameworks */,
 				9D17869C1FB23DD300765642 /* Swinject.framework in Frameworks */,
 				9D17869D1FB23DD300765642 /* RxSwift.framework in Frameworks */,
@@ -68,6 +71,7 @@
 		9D1786921FB23DD200765642 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9DCEDBA71FB3084A001CA227 /* ObjcExceptionBridging.framework */,
 				9D1786981FB23DD200765642 /* Alamofire.framework */,
 				9D1786931FB23DD200765642 /* ReactiveSwift.framework */,
 				9D1786991FB23DD300765642 /* Result.framework */,
@@ -228,7 +232,7 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/",
+				"$(SRCROOT)/Carthage/Build/iOS/ObjcExceptionBridging.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Swinject.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
